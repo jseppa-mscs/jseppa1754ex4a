@@ -22,20 +22,29 @@
                 <a class="nav-link" href="Home.html">HobbySpot</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hobbies</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Disc Golf</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="DiscGolf.html">Disc Golf</a>
-                    <a class="dropdown-item active" href="Videogames.html">Videogames</a>
-                    <a class="dropdown-item" href="RockClimbing.html">Rock Climbing</a>
+                    <a class="dropdown-item" href="DiscGolfRules.html">Rules</a>
+                    <a class="dropdown-item" href="DiscGolfEquipment.html">Equipment</a>
                 </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Rock Climbing</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="RockClimbingBasics.html">Basics</a>
+                    <a class="dropdown-item" href="RockClimbingEquipment.html">Equipment</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Videogames.html">Videogames</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="Social.html">Social</a>
             </li>
         </ul> 
-    </nav> 
+    </nav>
     <div class="jumbotron bg-dark text-white"
-        style="background-image: url(images/videogames.jpg); ">
+        style="background-image: url(images/videogames.jpg);">
       <h1 style="color: red; font-weight: 900; text-align: center;">Videogames</h1>
     </div>
 </div> 
@@ -50,7 +59,7 @@
                 <li>Simulation</li>
                 <li>Strategy</li>
                 <li>Sports</li>
-                <li>Massive Multiplayer Online</li>
+                <li><a href="#" style="color: black;" data-toggle="tooltip" title="Massive Multiplayer Online">MMO</a></li>
             </ul>
         </div>
         <div class="col-sm-6 col-md-9 bg-light">
@@ -65,4 +74,9 @@
     <p>&copy; 2019 HobbySpot. All Rights Reserved.</p>
 </div>
 </body>
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </html> 

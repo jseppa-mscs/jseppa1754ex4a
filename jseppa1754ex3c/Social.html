@@ -22,18 +22,27 @@
                 <a class="nav-link" href="Home.html">HobbySpot</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hobbies</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Disc Golf</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="DiscGolf.html">Disc Golf</a>
-                    <a class="dropdown-item" href="Videogames.html">Videogames</a>
-                    <a class="dropdown-item" href="RockClimbing.html">Rock Climbing</a>
+                    <a class="dropdown-item" href="DiscGolfRules.html">Rules</a>
+                    <a class="dropdown-item" href="DiscGolfEquipment.html">Equipment</a>
                 </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Rock Climbing</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="RockClimbingBasics.html">Basics</a>
+                    <a class="dropdown-item" href="RockClimbingEquipment.html">Equipment</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Videogames.html">Videogames</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="Social.html">Social</a>
             </li>
         </ul> 
-    </nav> 
+    </nav>
     <div class="jumbotron bg-dark text-white"
         style="background-image: url(images/social.jpg); background-repeat: no-repeat; background-size: cover; ">
       <h1 style="color: red; font-weight: 900; text-align: center;">Social</h1>
@@ -42,17 +51,43 @@
 <div class="container">
     <div class="row" style="margin-left: 0px">
         <div class="col-sm-6 col-md-3 text-light bg-secondary">
-            <h5>Friends</h5>
-            <p>
-                See who's online and start a conversation!
-            </p>
-            <ul>
-                <li>SampleFriend1</li>
-                <li>SampleFriend2</li>
-                <li>SampleFriend3</li>
-                <li>SampleFriend4</li>
-                <li>SampleFriend5</li>
-            </ul>
+            <h5>Message a Friend!</h5>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <textarea class="form-control" rows="1" id="username"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" rows="3" id="message"></textarea>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" /> Open Conversation History
+                    </label>
+                </div>
+                <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary">Submit</button>
+                <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title" style="color: black;">Message Sent Successfully!</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body" style="color: black;">
+                                    If you selected to "Open Conversation History" you will be redirected accordingly.
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </form>
         </div>
         <div class="col-sm-6 col-md-9 bg-light">
             <p>

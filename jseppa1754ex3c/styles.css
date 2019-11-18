@@ -9,7 +9,7 @@
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: blue;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
@@ -37,4 +37,31 @@ h5 {
 
 #hobbies, #discs, #rocketleague, #rockclimbing, #friends {
     width: 100%;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 450px;
+    vertical-align: text-top;
+}
+
+.carouselHeader {
+    color: black;
+    font-weight: 700;
+    text-shadow: 0 0 10px white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    vertical-align: top;
 }

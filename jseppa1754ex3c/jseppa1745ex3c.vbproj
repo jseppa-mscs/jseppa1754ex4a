@@ -12,8 +12,8 @@
     <ProjectGuid>{240927A2-E0E1-4390-8C66-05E0B173B381}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>jseppa1754ex3c</RootNamespace>
-    <AssemblyName>jseppa1754ex3c</AssemblyName>
+    <RootNamespace>jseppa1745ex3c</RootNamespace>
+    <AssemblyName>jseppa1745ex3c</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
@@ -32,7 +32,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>jseppa1754ex3c.xml</DocumentationFile>
+    <DocumentationFile>jseppa1745ex3c.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -42,7 +42,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>jseppa1754ex3c.xml</DocumentationFile>
+    <DocumentationFile>jseppa1745ex3c.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -92,19 +92,24 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DiscGolf.html" />
+    <Content Include="DiscGolfEquipment.html" />
+    <Content Include="DiscGolfRules.html" />
     <Content Include="Home.html" />
+    <Content Include="images\avatar1.png" />
     <Content Include="images\discgolf.jpg" />
     <Content Include="images\discgolfdisc.jpg" />
     <Content Include="images\friends.jpg" />
     <Content Include="images\hobbies.jpg" />
     <Content Include="images\hobbies_color.jpg" />
+    <Content Include="images\lake.jpg" />
+    <Content Include="images\legoBG.jpg" />
     <Content Include="images\rockclimbing.jpg" />
     <Content Include="images\rockclimbingholds.jpg" />
     <Content Include="images\rocketleague.jpg" />
     <Content Include="images\social.jpg" />
     <Content Include="images\videogames.jpg" />
-    <Content Include="RockClimbing.html" />
+    <Content Include="RockClimbingBasics.html" />
+    <Content Include="RockClimbingEquipment.html" />
     <Content Include="Social.html" />
     <Content Include="styles.css" />
     <Content Include="Videogames.html" />
