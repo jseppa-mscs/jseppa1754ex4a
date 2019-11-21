@@ -71,7 +71,7 @@
   <ItemGroup>
     <Content Include="DiscGolfEquipment.html" />
     <Content Include="DiscGolfRules.html" />
-    <Content Include="Home.html" />
+    <Content Include="Default.html" />
     <Content Include="images\avatar1.png" />
     <Content Include="images\discgolf.jpg" />
     <Content Include="images\discgolfdisc.jpg" />
