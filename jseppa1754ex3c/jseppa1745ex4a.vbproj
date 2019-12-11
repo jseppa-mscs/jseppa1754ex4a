@@ -69,6 +69,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.html" />
     <Content Include="DiscGolfEquipment.html" />
     <Content Include="DiscGolfRules.html" />
     <Content Include="Default.html" />
@@ -87,6 +88,7 @@
     <Content Include="images\videogames.jpg" />
     <Content Include="RockClimbingBasics.html" />
     <Content Include="RockClimbingEquipment.html" />
+    <Content Include="sitemap.xml" />
     <Content Include="Social.html" />
     <Content Include="styles.css" />
     <Content Include="Videogames.html" />
